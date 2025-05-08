@@ -1,6 +1,6 @@
 const Message = require('../models/message');
 const User = require('../models/user');
-const Group = require('../models/Group');
+const Group = require('../models/group');
 
 const messageHandler = (io) => {
     // Store user socket mappings
