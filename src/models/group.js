@@ -23,6 +23,5 @@ const groupSchema = new mongoose.Schema({
 // Index for faster queries
 groupSchema.index({ members: 1 });
 
-const Group = mongoose.model('Group', groupSchema);
-
-module.exports = Group;
+// Check if model exists before creating it
+module.exports = mongoose.models.Group || mongoose.model('Group', groupSchema);
