@@ -1,6 +1,6 @@
 const User = require('./user');
-const Group = require('./Group');
-const Message = require('./Message');
+const Group = require('./group');
+const Message = require('./message');
 
 // Mongoose doesn't need explicit associations like Sequelize
 // The relationships are defined in the schemas using refs
