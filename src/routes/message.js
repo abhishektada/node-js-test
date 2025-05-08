@@ -1,9 +1,9 @@
 const express = require('express');
 const router = express.Router();
 const { authenticate } = require('../middlewares/auth');
-const Message = require('../models/Message');
+const Message = require('../models/message');
 const User = require('../models/user');
-const Group = require('../models/Group');
+const Group = require('../models/group');
 
 /**
  * @swagger
