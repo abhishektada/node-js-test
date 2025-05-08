@@ -1,5 +1,5 @@
 const Message = require('../models/Message');
-const User = require('../models/User');
+const User = require('../models/user');
 const Group = require('../models/Group');
 
 const messageHandler = (io) => {
